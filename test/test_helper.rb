@@ -10,7 +10,9 @@ Rails.backtrace_cleaner.remove_silencers!
 Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].each { |f| require f }
 
 require 'capybara_rails/basic'
+require 'capybara_rails/selenium'
 
 class ActionDispatch::IntegrationTest
   include CapybaraRails::Basic
+  include CapybaraRails::Selenium
 end
