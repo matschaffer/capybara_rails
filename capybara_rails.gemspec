@@ -18,6 +18,8 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rails", "~> 3.2.1"
   s.add_dependency "capybara", "~> 1.1.2"
+  s.add_dependency "capybara-firebug", "~> 1.1.0"
+  s.add_dependency "database_cleaner", "~> 0.7.1"
 
   s.add_development_dependency "sqlite3"
 end
