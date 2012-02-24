@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    capybara_rails (0.0.1)
+    capybara_rails (0.0.2)
       capybara (~> 1.1.2)
       capybara-firebug (~> 1.1.0)
       database_cleaner (~> 0.7.1)
