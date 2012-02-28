@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = CapybaraRails::VERSION
   s.authors     = ["Mat Schaffer"]
   s.email       = ["mat@schaffer.me"]
-  s.homepage    = "http://mashion.new"
+  s.homepage    = "https://github.com/matschaffer/capybara_rails"
   s.summary     = "Capybara integration testing for Rails & Test::Unit"
   s.description = "A binding for the built-in Rails integration testing that allows for calling the Capybara DSL, setting drivers, etc."
 
